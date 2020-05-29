@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.scripts.ActiTimeLogin.TestCreateEditDeleteLeave"/>
+      <class name="com.scripts.ActiTimeLogin.TestVerify"/>
       <class name="com.scripts.ActiTimeLogin.TestCreateEditDeleteTask"/>
       <class name="com.scripts.ActiTimeLogin.TestActiCreateEditDeleteCustomer"/>
       <class name="com.scripts.ActiTimeLogin.TestActilogin"/>
