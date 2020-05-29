@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.scripts.ActiTimeLogin.TestActilogin">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="actiLogin"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.ActiTimeLogin.TestActilogin -->
+      <class name="com.scripts.ActiTimeLogin.TestCreateEditDeleteTask">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CreateEditAndDeletetask"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.ActiTimeLogin.TestCreateEditDeleteTask -->
+      <class name="com.scripts.ActiTimeLogin.TestCreateEditDeleteLeave">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="CreateEditDeleteLeave"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.ActiTimeLogin.TestCreateEditDeleteLeave -->
+      <class name="com.scripts.ActiTimeLogin.TestActiCreateEditDeleteCustomer">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="createEditAndDeleteCustomer"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.scripts.ActiTimeLogin.TestActiCreateEditDeleteCustomer -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
